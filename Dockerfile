@@ -4,4 +4,5 @@ RUN set -xe \
     && apk add --no-cache tinyproxy  
 
 EXPOSE 8080
+
 CMD ["tinyproxy", "-d"]
